@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AFEB2F61E0CEBE10029DEFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEB2F51E0CEBE10029DEFA /* main.m */; };
+		1AFEB2F91E0CEBE10029DEFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEB2F81E0CEBE10029DEFA /* AppDelegate.m */; };
+		1AFEB2FC1E0CEBE10029DEFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEB2FB1E0CEBE10029DEFA /* ViewController.m */; };
+		1AFEB2FF1E0CEBE10029DEFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB2FD1E0CEBE10029DEFA /* Main.storyboard */; };
+		1AFEB3011E0CEBE10029DEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB3001E0CEBE10029DEFA /* Assets.xcassets */; };
+		1AFEB3041E0CEBE10029DEFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB3021E0CEBE10029DEFA /* LaunchScreen.storyboard */; };
+		1AFEB30F1E0CEBE10029DEFA /* JGDateTimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEB30E1E0CEBE10029DEFA /* JGDateTimeDemoTests.m */; };
+		1AFEB31A1E0CEBE10029DEFA /* JGDateTimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEB3191E0CEBE10029DEFA /* JGDateTimeDemoUITests.m */; };
+		1AFEB32F1E0CEBF70029DEFA /* MXSCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEB3291E0CEBF70029DEFA /* MXSCycleScrollView.m */; };
+		1AFEB3301E0CEBF70029DEFA /* RBCustomDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEB32B1E0CEBF70029DEFA /* RBCustomDatePickerView.m */; };
+		1AFEB3311E0CEBF70029DEFA /* FDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEB32E1E0CEBF70029DEFA /* FDAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AFEB30B1E0CEBE10029DEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFEB2E91E0CEBE10029DEFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFEB2F01E0CEBE10029DEFA;
+			remoteInfo = JGDateTimeDemo;
+		};
+		1AFEB3161E0CEBE10029DEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFEB2E91E0CEBE10029DEFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFEB2F01E0CEBE10029DEFA;
+			remoteInfo = JGDateTimeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AFEB2F11E0CEBE10029DEFA /* JGDateTimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGDateTimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFEB2F51E0CEBE10029DEFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AFEB2F71E0CEBE10029DEFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AFEB2F81E0CEBE10029DEFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AFEB2FA1E0CEBE10029DEFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1AFEB2FB1E0CEBE10029DEFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AFEB2FE1E0CEBE10029DEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AFEB3001E0CEBE10029DEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AFEB3031E0CEBE10029DEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AFEB3051E0CEBE10029DEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFEB30A1E0CEBE10029DEFA /* JGDateTimeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGDateTimeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFEB30E1E0CEBE10029DEFA /* JGDateTimeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGDateTimeDemoTests.m; sourceTree = "<group>"; };
+		1AFEB3101E0CEBE10029DEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFEB3151E0CEBE10029DEFA /* JGDateTimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGDateTimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFEB3191E0CEBE10029DEFA /* JGDateTimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGDateTimeDemoUITests.m; sourceTree = "<group>"; };
+		1AFEB31B1E0CEBE10029DEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFEB3281E0CEBF70029DEFA /* MXSCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXSCycleScrollView.h; sourceTree = "<group>"; };
+		1AFEB3291E0CEBF70029DEFA /* MXSCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXSCycleScrollView.m; sourceTree = "<group>"; };
+		1AFEB32A1E0CEBF70029DEFA /* RBCustomDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBCustomDatePickerView.h; sourceTree = "<group>"; };
+		1AFEB32B1E0CEBF70029DEFA /* RBCustomDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBCustomDatePickerView.m; sourceTree = "<group>"; };
+		1AFEB32D1E0CEBF70029DEFA /* FDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDAlertView.h; sourceTree = "<group>"; };
+		1AFEB32E1E0CEBF70029DEFA /* FDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AFEB2EE1E0CEBE10029DEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFEB3071E0CEBE10029DEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFEB3121E0CEBE10029DEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AFEB2E81E0CEBE10029DEFA = {
+			isa = PBXGroup;
+			children = (
+				1AFEB2F31E0CEBE10029DEFA /* JGDateTimeDemo */,
+				1AFEB30D1E0CEBE10029DEFA /* JGDateTimeDemoTests */,
+				1AFEB3181E0CEBE10029DEFA /* JGDateTimeDemoUITests */,
+				1AFEB2F21E0CEBE10029DEFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AFEB2F21E0CEBE10029DEFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AFEB2F11E0CEBE10029DEFA /* JGDateTimeDemo.app */,
+				1AFEB30A1E0CEBE10029DEFA /* JGDateTimeDemoTests.xctest */,
+				1AFEB3151E0CEBE10029DEFA /* JGDateTimeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AFEB2F31E0CEBE10029DEFA /* JGDateTimeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1AFEB3271E0CEBF70029DEFA /* CycleScollview */,
+				1AFEB32C1E0CEBF70029DEFA /* FDAlertView */,
+				1AFEB2F71E0CEBE10029DEFA /* AppDelegate.h */,
+				1AFEB2F81E0CEBE10029DEFA /* AppDelegate.m */,
+				1AFEB2FA1E0CEBE10029DEFA /* ViewController.h */,
+				1AFEB2FB1E0CEBE10029DEFA /* ViewController.m */,
+				1AFEB2FD1E0CEBE10029DEFA /* Main.storyboard */,
+				1AFEB3001E0CEBE10029DEFA /* Assets.xcassets */,
+				1AFEB3021E0CEBE10029DEFA /* LaunchScreen.storyboard */,
+				1AFEB3051E0CEBE10029DEFA /* Info.plist */,
+				1AFEB2F41E0CEBE10029DEFA /* Supporting Files */,
+			);
+			path = JGDateTimeDemo;
+			sourceTree = "<group>";
+		};
+		1AFEB2F41E0CEBE10029DEFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AFEB2F51E0CEBE10029DEFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AFEB30D1E0CEBE10029DEFA /* JGDateTimeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AFEB30E1E0CEBE10029DEFA /* JGDateTimeDemoTests.m */,
+				1AFEB3101E0CEBE10029DEFA /* Info.plist */,
+			);
+			path = JGDateTimeDemoTests;
+			sourceTree = "<group>";
+		};
+		1AFEB3181E0CEBE10029DEFA /* JGDateTimeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AFEB3191E0CEBE10029DEFA /* JGDateTimeDemoUITests.m */,
+				1AFEB31B1E0CEBE10029DEFA /* Info.plist */,
+			);
+			path = JGDateTimeDemoUITests;
+			sourceTree = "<group>";
+		};
+		1AFEB3271E0CEBF70029DEFA /* CycleScollview */ = {
+			isa = PBXGroup;
+			children = (
+				1AFEB3281E0CEBF70029DEFA /* MXSCycleScrollView.h */,
+				1AFEB3291E0CEBF70029DEFA /* MXSCycleScrollView.m */,
+				1AFEB32A1E0CEBF70029DEFA /* RBCustomDatePickerView.h */,
+				1AFEB32B1E0CEBF70029DEFA /* RBCustomDatePickerView.m */,
+			);
+			path = CycleScollview;
+			sourceTree = "<group>";
+		};
+		1AFEB32C1E0CEBF70029DEFA /* FDAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				1AFEB32D1E0CEBF70029DEFA /* FDAlertView.h */,
+				1AFEB32E1E0CEBF70029DEFA /* FDAlertView.m */,
+			);
+			path = FDAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AFEB2F01E0CEBE10029DEFA /* JGDateTimeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFEB31E1E0CEBE10029DEFA /* Build configuration list for PBXNativeTarget "JGDateTimeDemo" */;
+			buildPhases = (
+				1AFEB2ED1E0CEBE10029DEFA /* Sources */,
+				1AFEB2EE1E0CEBE10029DEFA /* Frameworks */,
+				1AFEB2EF1E0CEBE10029DEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGDateTimeDemo;
+			productName = JGDateTimeDemo;
+			productReference = 1AFEB2F11E0CEBE10029DEFA /* JGDateTimeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AFEB3091E0CEBE10029DEFA /* JGDateTimeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFEB3211E0CEBE10029DEFA /* Build configuration list for PBXNativeTarget "JGDateTimeDemoTests" */;
+			buildPhases = (
+				1AFEB3061E0CEBE10029DEFA /* Sources */,
+				1AFEB3071E0CEBE10029DEFA /* Frameworks */,
+				1AFEB3081E0CEBE10029DEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFEB30C1E0CEBE10029DEFA /* PBXTargetDependency */,
+			);
+			name = JGDateTimeDemoTests;
+			productName = JGDateTimeDemoTests;
+			productReference = 1AFEB30A1E0CEBE10029DEFA /* JGDateTimeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AFEB3141E0CEBE10029DEFA /* JGDateTimeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFEB3241E0CEBE10029DEFA /* Build configuration list for PBXNativeTarget "JGDateTimeDemoUITests" */;
+			buildPhases = (
+				1AFEB3111E0CEBE10029DEFA /* Sources */,
+				1AFEB3121E0CEBE10029DEFA /* Frameworks */,
+				1AFEB3131E0CEBE10029DEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFEB3171E0CEBE10029DEFA /* PBXTargetDependency */,
+			);
+			name = JGDateTimeDemoUITests;
+			productName = JGDateTimeDemoUITests;
+			productReference = 1AFEB3151E0CEBE10029DEFA /* JGDateTimeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AFEB2E91E0CEBE10029DEFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = JG;
+				TargetAttributes = {
+					1AFEB2F01E0CEBE10029DEFA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					1AFEB3091E0CEBE10029DEFA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AFEB2F01E0CEBE10029DEFA;
+					};
+					1AFEB3141E0CEBE10029DEFA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AFEB2F01E0CEBE10029DEFA;
+					};
+				};
+			};
+			buildConfigurationList = 1AFEB2EC1E0CEBE10029DEFA /* Build configuration list for PBXProject "JGDateTimeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AFEB2E81E0CEBE10029DEFA;
+			productRefGroup = 1AFEB2F21E0CEBE10029DEFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AFEB2F01E0CEBE10029DEFA /* JGDateTimeDemo */,
+				1AFEB3091E0CEBE10029DEFA /* JGDateTimeDemoTests */,
+				1AFEB3141E0CEBE10029DEFA /* JGDateTimeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AFEB2EF1E0CEBE10029DEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFEB3041E0CEBE10029DEFA /* LaunchScreen.storyboard in Resources */,
+				1AFEB3011E0CEBE10029DEFA /* Assets.xcassets in Resources */,
+				1AFEB2FF1E0CEBE10029DEFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFEB3081E0CEBE10029DEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFEB3131E0CEBE10029DEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AFEB2ED1E0CEBE10029DEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFEB2FC1E0CEBE10029DEFA /* ViewController.m in Sources */,
+				1AFEB32F1E0CEBF70029DEFA /* MXSCycleScrollView.m in Sources */,
+				1AFEB2F91E0CEBE10029DEFA /* AppDelegate.m in Sources */,
+				1AFEB3311E0CEBF70029DEFA /* FDAlertView.m in Sources */,
+				1AFEB3301E0CEBF70029DEFA /* RBCustomDatePickerView.m in Sources */,
+				1AFEB2F61E0CEBE10029DEFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFEB3061E0CEBE10029DEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFEB30F1E0CEBE10029DEFA /* JGDateTimeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFEB3111E0CEBE10029DEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFEB31A1E0CEBE10029DEFA /* JGDateTimeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AFEB30C1E0CEBE10029DEFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFEB2F01E0CEBE10029DEFA /* JGDateTimeDemo */;
+			targetProxy = 1AFEB30B1E0CEBE10029DEFA /* PBXContainerItemProxy */;
+		};
+		1AFEB3171E0CEBE10029DEFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFEB2F01E0CEBE10029DEFA /* JGDateTimeDemo */;
+			targetProxy = 1AFEB3161E0CEBE10029DEFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AFEB2FD1E0CEBE10029DEFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFEB2FE1E0CEBE10029DEFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AFEB3021E0CEBE10029DEFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFEB3031E0CEBE10029DEFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AFEB31C1E0CEBE10029DEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AFEB31D1E0CEBE10029DEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AFEB31F1E0CEBE10029DEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JGDateTimeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengHanDL.JGDateTimeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AFEB3201E0CEBE10029DEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JGDateTimeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengHanDL.JGDateTimeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AFEB3221E0CEBE10029DEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JGDateTimeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengHanDL.JGDateTimeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGDateTimeDemo.app/JGDateTimeDemo";
+			};
+			name = Debug;
+		};
+		1AFEB3231E0CEBE10029DEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JGDateTimeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengHanDL.JGDateTimeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGDateTimeDemo.app/JGDateTimeDemo";
+			};
+			name = Release;
+		};
+		1AFEB3251E0CEBE10029DEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JGDateTimeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengHanDL.JGDateTimeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JGDateTimeDemo;
+			};
+			name = Debug;
+		};
+		1AFEB3261E0CEBE10029DEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JGDateTimeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengHanDL.JGDateTimeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JGDateTimeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AFEB2EC1E0CEBE10029DEFA /* Build configuration list for PBXProject "JGDateTimeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFEB31C1E0CEBE10029DEFA /* Debug */,
+				1AFEB31D1E0CEBE10029DEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFEB31E1E0CEBE10029DEFA /* Build configuration list for PBXNativeTarget "JGDateTimeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFEB31F1E0CEBE10029DEFA /* Debug */,
+				1AFEB3201E0CEBE10029DEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AFEB3211E0CEBE10029DEFA /* Build configuration list for PBXNativeTarget "JGDateTimeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFEB3221E0CEBE10029DEFA /* Debug */,
+				1AFEB3231E0CEBE10029DEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AFEB3241E0CEBE10029DEFA /* Build configuration list for PBXNativeTarget "JGDateTimeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFEB3251E0CEBE10029DEFA /* Debug */,
+				1AFEB3261E0CEBE10029DEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AFEB2E91E0CEBE10029DEFA /* Project object */;
+}

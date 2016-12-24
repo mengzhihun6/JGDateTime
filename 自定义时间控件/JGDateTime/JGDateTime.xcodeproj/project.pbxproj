@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AFF83111E0E388100EA4379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83101E0E388100EA4379 /* main.m */; };
+		1AFF831A1E0E388100EA4379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF83181E0E388100EA4379 /* Main.storyboard */; };
+		1AFF831C1E0E388100EA4379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF831B1E0E388100EA4379 /* Assets.xcassets */; };
+		1AFF831F1E0E388100EA4379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF831D1E0E388100EA4379 /* LaunchScreen.storyboard */; };
+		1AFF832A1E0E388100EA4379 /* JGDateTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83291E0E388100EA4379 /* JGDateTimeTests.m */; };
+		1AFF83351E0E388100EA4379 /* JGDateTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83341E0E388100EA4379 /* JGDateTimeUITests.m */; };
+		1AFF834A1E0E392900EA4379 /* JGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83471E0E392900EA4379 /* JGAppDelegate.m */; };
+		1AFF834D1E0E39EC00EA4379 /* JGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF834C1E0E39EC00EA4379 /* JGRootViewController.m */; };
+		1AFF83571E0E401100EA4379 /* MXSCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83511E0E401100EA4379 /* MXSCycleScrollView.m */; };
+		1AFF83581E0E401100EA4379 /* RBCustomDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83531E0E401100EA4379 /* RBCustomDatePickerView.m */; };
+		1AFF83591E0E401100EA4379 /* FDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83561E0E401100EA4379 /* FDAlertView.m */; };
+		1AFF835E1E0E425900EA4379 /* JGPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF835D1E0E425900EA4379 /* JGPicker.m */; };
+		1AFF83791E0E433C00EA4379 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83611E0E433C00EA4379 /* MASCompositeConstraint.m */; };
+		1AFF837A1E0E433C00EA4379 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83641E0E433C00EA4379 /* MASConstraint.m */; };
+		1AFF837B1E0E433C00EA4379 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83661E0E433C00EA4379 /* MASConstraintMaker.m */; };
+		1AFF837C1E0E433C00EA4379 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83681E0E433C00EA4379 /* MASLayoutConstraint.m */; };
+		1AFF837D1E0E433C00EA4379 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF836C1E0E433C00EA4379 /* MASViewAttribute.m */; };
+		1AFF837E1E0E433C00EA4379 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF836E1E0E433C00EA4379 /* MASViewConstraint.m */; };
+		1AFF837F1E0E433C00EA4379 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83701E0E433C00EA4379 /* NSArray+MASAdditions.m */; };
+		1AFF83801E0E433C00EA4379 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83731E0E433C00EA4379 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		1AFF83811E0E433C00EA4379 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83751E0E433C00EA4379 /* View+MASAdditions.m */; };
+		1AFF83821E0E433C00EA4379 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83781E0E433C00EA4379 /* ViewController+MASAdditions.m */; };
+		1AFF83901E0E446800EA4379 /* GFCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83871E0E446800EA4379 /* GFCalendarCell.m */; };
+		1AFF83911E0E446800EA4379 /* GFCalendarMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83891E0E446800EA4379 /* GFCalendarMonth.m */; };
+		1AFF83921E0E446800EA4379 /* GFCalendarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF838B1E0E446800EA4379 /* GFCalendarScrollView.m */; };
+		1AFF83931E0E446800EA4379 /* GFCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF838D1E0E446800EA4379 /* GFCalendarView.m */; };
+		1AFF83941E0E446800EA4379 /* NSDate+GFCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF838F1E0E446800EA4379 /* NSDate+GFCalendar.m */; };
+		1AFF83991E0E461500EA4379 /* JGPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83981E0E461500EA4379 /* JGPickerView.m */; };
+		1AFF83A11E0E576C00EA4379 /* NYDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF839C1E0E576C00EA4379 /* NYDateTableViewCell.m */; };
+		1AFF83A21E0E576C00EA4379 /* NYDateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF839D1E0E576C00EA4379 /* NYDateTableViewCell.xib */; };
+		1AFF83A31E0E576C00EA4379 /* NYDateTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF839F1E0E576C00EA4379 /* NYDateTimeTableViewCell.m */; };
+		1AFF83A41E0E576C00EA4379 /* NYDateTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF83A01E0E576C00EA4379 /* NYDateTimeTableViewCell.xib */; };
+		1AFF83A81E0E588B00EA4379 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF83A61E0E588B00EA4379 /* MainViewController.m */; };
+		1AFF83A91E0E588B00EA4379 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF83A71E0E588B00EA4379 /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AFF83261E0E388100EA4379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFF83041E0E388100EA4379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFF830B1E0E388100EA4379;
+			remoteInfo = JGDateTime;
+		};
+		1AFF83311E0E388100EA4379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFF83041E0E388100EA4379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFF830B1E0E388100EA4379;
+			remoteInfo = JGDateTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AFF830C1E0E388100EA4379 /* JGDateTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGDateTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFF83101E0E388100EA4379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AFF83191E0E388100EA4379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AFF831B1E0E388100EA4379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AFF831E1E0E388100EA4379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AFF83201E0E388100EA4379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFF83251E0E388100EA4379 /* JGDateTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGDateTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFF83291E0E388100EA4379 /* JGDateTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGDateTimeTests.m; sourceTree = "<group>"; };
+		1AFF832B1E0E388100EA4379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFF83301E0E388100EA4379 /* JGDateTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGDateTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFF83341E0E388100EA4379 /* JGDateTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGDateTimeUITests.m; sourceTree = "<group>"; };
+		1AFF83361E0E388100EA4379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFF83461E0E392900EA4379 /* JGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGAppDelegate.h; sourceTree = "<group>"; };
+		1AFF83471E0E392900EA4379 /* JGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGAppDelegate.m; sourceTree = "<group>"; };
+		1AFF834B1E0E39EC00EA4379 /* JGRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGRootViewController.h; sourceTree = "<group>"; };
+		1AFF834C1E0E39EC00EA4379 /* JGRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGRootViewController.m; sourceTree = "<group>"; };
+		1AFF83501E0E401100EA4379 /* MXSCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXSCycleScrollView.h; sourceTree = "<group>"; };
+		1AFF83511E0E401100EA4379 /* MXSCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXSCycleScrollView.m; sourceTree = "<group>"; };
+		1AFF83521E0E401100EA4379 /* RBCustomDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBCustomDatePickerView.h; sourceTree = "<group>"; };
+		1AFF83531E0E401100EA4379 /* RBCustomDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBCustomDatePickerView.m; sourceTree = "<group>"; };
+		1AFF83551E0E401100EA4379 /* FDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDAlertView.h; sourceTree = "<group>"; };
+		1AFF83561E0E401100EA4379 /* FDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDAlertView.m; sourceTree = "<group>"; };
+		1AFF835C1E0E425900EA4379 /* JGPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGPicker.h; sourceTree = "<group>"; };
+		1AFF835D1E0E425900EA4379 /* JGPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGPicker.m; sourceTree = "<group>"; };
+		1AFF83601E0E433C00EA4379 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		1AFF83611E0E433C00EA4379 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		1AFF83621E0E433C00EA4379 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		1AFF83631E0E433C00EA4379 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		1AFF83641E0E433C00EA4379 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		1AFF83651E0E433C00EA4379 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		1AFF83661E0E433C00EA4379 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		1AFF83671E0E433C00EA4379 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		1AFF83681E0E433C00EA4379 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		1AFF83691E0E433C00EA4379 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		1AFF836A1E0E433C00EA4379 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		1AFF836B1E0E433C00EA4379 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		1AFF836C1E0E433C00EA4379 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		1AFF836D1E0E433C00EA4379 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		1AFF836E1E0E433C00EA4379 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		1AFF836F1E0E433C00EA4379 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		1AFF83701E0E433C00EA4379 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		1AFF83711E0E433C00EA4379 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		1AFF83721E0E433C00EA4379 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		1AFF83731E0E433C00EA4379 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		1AFF83741E0E433C00EA4379 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		1AFF83751E0E433C00EA4379 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		1AFF83761E0E433C00EA4379 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		1AFF83771E0E433C00EA4379 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		1AFF83781E0E433C00EA4379 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		1AFF83851E0E446800EA4379 /* GFCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCalendar.h; sourceTree = "<group>"; };
+		1AFF83861E0E446800EA4379 /* GFCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCalendarCell.h; sourceTree = "<group>"; };
+		1AFF83871E0E446800EA4379 /* GFCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFCalendarCell.m; sourceTree = "<group>"; };
+		1AFF83881E0E446800EA4379 /* GFCalendarMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCalendarMonth.h; sourceTree = "<group>"; };
+		1AFF83891E0E446800EA4379 /* GFCalendarMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFCalendarMonth.m; sourceTree = "<group>"; };
+		1AFF838A1E0E446800EA4379 /* GFCalendarScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCalendarScrollView.h; sourceTree = "<group>"; };
+		1AFF838B1E0E446800EA4379 /* GFCalendarScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFCalendarScrollView.m; sourceTree = "<group>"; };
+		1AFF838C1E0E446800EA4379 /* GFCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCalendarView.h; sourceTree = "<group>"; };
+		1AFF838D1E0E446800EA4379 /* GFCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFCalendarView.m; sourceTree = "<group>"; };
+		1AFF838E1E0E446800EA4379 /* NSDate+GFCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+GFCalendar.h"; sourceTree = "<group>"; };
+		1AFF838F1E0E446800EA4379 /* NSDate+GFCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+GFCalendar.m"; sourceTree = "<group>"; };
+		1AFF83971E0E461500EA4379 /* JGPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGPickerView.h; sourceTree = "<group>"; };
+		1AFF83981E0E461500EA4379 /* JGPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGPickerView.m; sourceTree = "<group>"; };
+		1AFF839B1E0E576C00EA4379 /* NYDateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYDateTableViewCell.h; sourceTree = "<group>"; };
+		1AFF839C1E0E576C00EA4379 /* NYDateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYDateTableViewCell.m; sourceTree = "<group>"; };
+		1AFF839D1E0E576C00EA4379 /* NYDateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NYDateTableViewCell.xib; sourceTree = "<group>"; };
+		1AFF839E1E0E576C00EA4379 /* NYDateTimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYDateTimeTableViewCell.h; sourceTree = "<group>"; };
+		1AFF839F1E0E576C00EA4379 /* NYDateTimeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYDateTimeTableViewCell.m; sourceTree = "<group>"; };
+		1AFF83A01E0E576C00EA4379 /* NYDateTimeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NYDateTimeTableViewCell.xib; sourceTree = "<group>"; };
+		1AFF83A51E0E588B00EA4379 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1AFF83A61E0E588B00EA4379 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1AFF83A71E0E588B00EA4379 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AFF83091E0E388100EA4379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFF83221E0E388100EA4379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFF832D1E0E388100EA4379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AFF83031E0E388100EA4379 = {
+			isa = PBXGroup;
+			children = (
+				1AFF830E1E0E388100EA4379 /* JGDateTime */,
+				1AFF83281E0E388100EA4379 /* JGDateTimeTests */,
+				1AFF83331E0E388100EA4379 /* JGDateTimeUITests */,
+				1AFF830D1E0E388100EA4379 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AFF830D1E0E388100EA4379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF830C1E0E388100EA4379 /* JGDateTime.app */,
+				1AFF83251E0E388100EA4379 /* JGDateTimeTests.xctest */,
+				1AFF83301E0E388100EA4379 /* JGDateTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AFF830E1E0E388100EA4379 /* JGDateTime */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF83451E0E392900EA4379 /* APPS */,
+				1AFF83481E0E392900EA4379 /* Controllers */,
+				1AFF83491E0E392900EA4379 /* TimeTools */,
+				1AFF830F1E0E388100EA4379 /* Supporting Files */,
+			);
+			path = JGDateTime;
+			sourceTree = "<group>";
+		};
+		1AFF830F1E0E388100EA4379 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF83181E0E388100EA4379 /* Main.storyboard */,
+				1AFF831B1E0E388100EA4379 /* Assets.xcassets */,
+				1AFF831D1E0E388100EA4379 /* LaunchScreen.storyboard */,
+				1AFF83201E0E388100EA4379 /* Info.plist */,
+				1AFF83101E0E388100EA4379 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AFF83281E0E388100EA4379 /* JGDateTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF83291E0E388100EA4379 /* JGDateTimeTests.m */,
+				1AFF832B1E0E388100EA4379 /* Info.plist */,
+			);
+			path = JGDateTimeTests;
+			sourceTree = "<group>";
+		};
+		1AFF83331E0E388100EA4379 /* JGDateTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF83341E0E388100EA4379 /* JGDateTimeUITests.m */,
+				1AFF83361E0E388100EA4379 /* Info.plist */,
+			);
+			path = JGDateTimeUITests;
+			sourceTree = "<group>";
+		};
+		1AFF83451E0E392900EA4379 /* APPS */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF83461E0E392900EA4379 /* JGAppDelegate.h */,
+				1AFF83471E0E392900EA4379 /* JGAppDelegate.m */,
+			);
+			path = APPS;
+			sourceTree = "<group>";
+		};
+		1AFF83481E0E392900EA4379 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF834B1E0E39EC00EA4379 /* JGRootViewController.h */,
+				1AFF834C1E0E39EC00EA4379 /* JGRootViewController.m */,
+				1AFF83A51E0E588B00EA4379 /* MainViewController.h */,
+				1AFF83A61E0E588B00EA4379 /* MainViewController.m */,
+				1AFF83A71E0E588B00EA4379 /* MainViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1AFF83491E0E392900EA4379 /* TimeTools */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF839A1E0E576C00EA4379 /* Style5 */,
+				1AFF83951E0E461500EA4379 /* Style4 */,
+				1AFF83831E0E446800EA4379 /* Style3 */,
+				1AFF835A1E0E425900EA4379 /* Style2 */,
+				1AFF834E1E0E401100EA4379 /* Style1 */,
+			);
+			path = TimeTools;
+			sourceTree = "<group>";
+		};
+		1AFF834E1E0E401100EA4379 /* Style1 */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF834F1E0E401100EA4379 /* CycleScollview */,
+				1AFF83541E0E401100EA4379 /* FDAlertView */,
+			);
+			path = Style1;
+			sourceTree = "<group>";
+		};
+		1AFF834F1E0E401100EA4379 /* CycleScollview */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF83501E0E401100EA4379 /* MXSCycleScrollView.h */,
+				1AFF83511E0E401100EA4379 /* MXSCycleScrollView.m */,
+				1AFF83521E0E401100EA4379 /* RBCustomDatePickerView.h */,
+				1AFF83531E0E401100EA4379 /* RBCustomDatePickerView.m */,
+			);
+			path = CycleScollview;
+			sourceTree = "<group>";
+		};
+		1AFF83541E0E401100EA4379 /* FDAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF83551E0E401100EA4379 /* FDAlertView.h */,
+				1AFF83561E0E401100EA4379 /* FDAlertView.m */,
+			);
+			path = FDAlertView;
+			sourceTree = "<group>";
+		};
+		1AFF835A1E0E425900EA4379 /* Style2 */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF835F1E0E433C00EA4379 /* Masonry */,
+				1AFF835B1E0E425900EA4379 /* JGPicker */,
+			);
+			path = Style2;
+			sourceTree = "<group>";
+		};
+		1AFF835B1E0E425900EA4379 /* JGPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF835C1E0E425900EA4379 /* JGPicker.h */,
+				1AFF835D1E0E425900EA4379 /* JGPicker.m */,
+			);
+			path = JGPicker;
+			sourceTree = "<group>";
+		};
+		1AFF835F1E0E433C00EA4379 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF83601E0E433C00EA4379 /* MASCompositeConstraint.h */,
+				1AFF83611E0E433C00EA4379 /* MASCompositeConstraint.m */,
+				1AFF83621E0E433C00EA4379 /* MASConstraint+Private.h */,
+				1AFF83631E0E433C00EA4379 /* MASConstraint.h */,
+				1AFF83641E0E433C00EA4379 /* MASConstraint.m */,
+				1AFF83651E0E433C00EA4379 /* MASConstraintMaker.h */,
+				1AFF83661E0E433C00EA4379 /* MASConstraintMaker.m */,
+				1AFF83671E0E433C00EA4379 /* MASLayoutConstraint.h */,
+				1AFF83681E0E433C00EA4379 /* MASLayoutConstraint.m */,
+				1AFF83691E0E433C00EA4379 /* Masonry.h */,
+				1AFF836A1E0E433C00EA4379 /* MASUtilities.h */,
+				1AFF836B1E0E433C00EA4379 /* MASViewAttribute.h */,
+				1AFF836C1E0E433C00EA4379 /* MASViewAttribute.m */,
+				1AFF836D1E0E433C00EA4379 /* MASViewConstraint.h */,
+				1AFF836E1E0E433C00EA4379 /* MASViewConstraint.m */,
+				1AFF836F1E0E433C00EA4379 /* NSArray+MASAdditions.h */,
+				1AFF83701E0E433C00EA4379 /* NSArray+MASAdditions.m */,
+				1AFF83711E0E433C00EA4379 /* NSArray+MASShorthandAdditions.h */,
+				1AFF83721E0E433C00EA4379 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				1AFF83731E0E433C00EA4379 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				1AFF83741E0E433C00EA4379 /* View+MASAdditions.h */,
+				1AFF83751E0E433C00EA4379 /* View+MASAdditions.m */,
+				1AFF83761E0E433C00EA4379 /* View+MASShorthandAdditions.h */,
+				1AFF83771E0E433C00EA4379 /* ViewController+MASAdditions.h */,
+				1AFF83781E0E433C00EA4379 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		1AFF83831E0E446800EA4379 /* Style3 */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF83841E0E446800EA4379 /* GFCalendar */,
+			);
+			path = Style3;
+			sourceTree = "<group>";
+		};
+		1AFF83841E0E446800EA4379 /* GFCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF83851E0E446800EA4379 /* GFCalendar.h */,
+				1AFF83861E0E446800EA4379 /* GFCalendarCell.h */,
+				1AFF83871E0E446800EA4379 /* GFCalendarCell.m */,
+				1AFF83881E0E446800EA4379 /* GFCalendarMonth.h */,
+				1AFF83891E0E446800EA4379 /* GFCalendarMonth.m */,
+				1AFF838A1E0E446800EA4379 /* GFCalendarScrollView.h */,
+				1AFF838B1E0E446800EA4379 /* GFCalendarScrollView.m */,
+				1AFF838C1E0E446800EA4379 /* GFCalendarView.h */,
+				1AFF838D1E0E446800EA4379 /* GFCalendarView.m */,
+				1AFF838E1E0E446800EA4379 /* NSDate+GFCalendar.h */,
+				1AFF838F1E0E446800EA4379 /* NSDate+GFCalendar.m */,
+			);
+			path = GFCalendar;
+			sourceTree = "<group>";
+		};
+		1AFF83951E0E461500EA4379 /* Style4 */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF83961E0E461500EA4379 /* JGPicker */,
+			);
+			path = Style4;
+			sourceTree = "<group>";
+		};
+		1AFF83961E0E461500EA4379 /* JGPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF83971E0E461500EA4379 /* JGPickerView.h */,
+				1AFF83981E0E461500EA4379 /* JGPickerView.m */,
+			);
+			path = JGPicker;
+			sourceTree = "<group>";
+		};
+		1AFF839A1E0E576C00EA4379 /* Style5 */ = {
+			isa = PBXGroup;
+			children = (
+				1AFF839B1E0E576C00EA4379 /* NYDateTableViewCell.h */,
+				1AFF839C1E0E576C00EA4379 /* NYDateTableViewCell.m */,
+				1AFF839D1E0E576C00EA4379 /* NYDateTableViewCell.xib */,
+				1AFF839E1E0E576C00EA4379 /* NYDateTimeTableViewCell.h */,
+				1AFF839F1E0E576C00EA4379 /* NYDateTimeTableViewCell.m */,
+				1AFF83A01E0E576C00EA4379 /* NYDateTimeTableViewCell.xib */,
+			);
+			path = Style5;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AFF830B1E0E388100EA4379 /* JGDateTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFF83391E0E388100EA4379 /* Build configuration list for PBXNativeTarget "JGDateTime" */;
+			buildPhases = (
+				1AFF83081E0E388100EA4379 /* Sources */,
+				1AFF83091E0E388100EA4379 /* Frameworks */,
+				1AFF830A1E0E388100EA4379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGDateTime;
+			productName = JGDateTime;
+			productReference = 1AFF830C1E0E388100EA4379 /* JGDateTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AFF83241E0E388100EA4379 /* JGDateTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFF833C1E0E388100EA4379 /* Build configuration list for PBXNativeTarget "JGDateTimeTests" */;
+			buildPhases = (
+				1AFF83211E0E388100EA4379 /* Sources */,
+				1AFF83221E0E388100EA4379 /* Frameworks */,
+				1AFF83231E0E388100EA4379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFF83271E0E388100EA4379 /* PBXTargetDependency */,
+			);
+			name = JGDateTimeTests;
+			productName = JGDateTimeTests;
+			productReference = 1AFF83251E0E388100EA4379 /* JGDateTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AFF832F1E0E388100EA4379 /* JGDateTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFF833F1E0E388100EA4379 /* Build configuration list for PBXNativeTarget "JGDateTimeUITests" */;
+			buildPhases = (
+				1AFF832C1E0E388100EA4379 /* Sources */,
+				1AFF832D1E0E388100EA4379 /* Frameworks */,
+				1AFF832E1E0E388100EA4379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFF83321E0E388100EA4379 /* PBXTargetDependency */,
+			);
+			name = JGDateTimeUITests;
+			productName = JGDateTimeUITests;
+			productReference = 1AFF83301E0E388100EA4379 /* JGDateTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AFF83041E0E388100EA4379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JG;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = JG;
+				TargetAttributes = {
+					1AFF830B1E0E388100EA4379 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					1AFF83241E0E388100EA4379 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AFF830B1E0E388100EA4379;
+					};
+					1AFF832F1E0E388100EA4379 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AFF830B1E0E388100EA4379;
+					};
+				};
+			};
+			buildConfigurationList = 1AFF83071E0E388100EA4379 /* Build configuration list for PBXProject "JGDateTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AFF83031E0E388100EA4379;
+			productRefGroup = 1AFF830D1E0E388100EA4379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AFF830B1E0E388100EA4379 /* JGDateTime */,
+				1AFF83241E0E388100EA4379 /* JGDateTimeTests */,
+				1AFF832F1E0E388100EA4379 /* JGDateTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AFF830A1E0E388100EA4379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFF83A21E0E576C00EA4379 /* NYDateTableViewCell.xib in Resources */,
+				1AFF83A91E0E588B00EA4379 /* MainViewController.xib in Resources */,
+				1AFF831F1E0E388100EA4379 /* LaunchScreen.storyboard in Resources */,
+				1AFF831C1E0E388100EA4379 /* Assets.xcassets in Resources */,
+				1AFF831A1E0E388100EA4379 /* Main.storyboard in Resources */,
+				1AFF83A41E0E576C00EA4379 /* NYDateTimeTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFF83231E0E388100EA4379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFF832E1E0E388100EA4379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AFF83081E0E388100EA4379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFF837F1E0E433C00EA4379 /* NSArray+MASAdditions.m in Sources */,
+				1AFF837E1E0E433C00EA4379 /* MASViewConstraint.m in Sources */,
+				1AFF83111E0E388100EA4379 /* main.m in Sources */,
+				1AFF837B1E0E433C00EA4379 /* MASConstraintMaker.m in Sources */,
+				1AFF83A31E0E576C00EA4379 /* NYDateTimeTableViewCell.m in Sources */,
+				1AFF83811E0E433C00EA4379 /* View+MASAdditions.m in Sources */,
+				1AFF83571E0E401100EA4379 /* MXSCycleScrollView.m in Sources */,
+				1AFF837A1E0E433C00EA4379 /* MASConstraint.m in Sources */,
+				1AFF83941E0E446800EA4379 /* NSDate+GFCalendar.m in Sources */,
+				1AFF83A11E0E576C00EA4379 /* NYDateTableViewCell.m in Sources */,
+				1AFF834A1E0E392900EA4379 /* JGAppDelegate.m in Sources */,
+				1AFF837D1E0E433C00EA4379 /* MASViewAttribute.m in Sources */,
+				1AFF83801E0E433C00EA4379 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				1AFF835E1E0E425900EA4379 /* JGPicker.m in Sources */,
+				1AFF83791E0E433C00EA4379 /* MASCompositeConstraint.m in Sources */,
+				1AFF83931E0E446800EA4379 /* GFCalendarView.m in Sources */,
+				1AFF83901E0E446800EA4379 /* GFCalendarCell.m in Sources */,
+				1AFF83A81E0E588B00EA4379 /* MainViewController.m in Sources */,
+				1AFF837C1E0E433C00EA4379 /* MASLayoutConstraint.m in Sources */,
+				1AFF83991E0E461500EA4379 /* JGPickerView.m in Sources */,
+				1AFF83591E0E401100EA4379 /* FDAlertView.m in Sources */,
+				1AFF83581E0E401100EA4379 /* RBCustomDatePickerView.m in Sources */,
+				1AFF83821E0E433C00EA4379 /* ViewController+MASAdditions.m in Sources */,
+				1AFF83911E0E446800EA4379 /* GFCalendarMonth.m in Sources */,
+				1AFF83921E0E446800EA4379 /* GFCalendarScrollView.m in Sources */,
+				1AFF834D1E0E39EC00EA4379 /* JGRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFF83211E0E388100EA4379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFF832A1E0E388100EA4379 /* JGDateTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFF832C1E0E388100EA4379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFF83351E0E388100EA4379 /* JGDateTimeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AFF83271E0E388100EA4379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFF830B1E0E388100EA4379 /* JGDateTime */;
+			targetProxy = 1AFF83261E0E388100EA4379 /* PBXContainerItemProxy */;
+		};
+		1AFF83321E0E388100EA4379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFF830B1E0E388100EA4379 /* JGDateTime */;
+			targetProxy = 1AFF83311E0E388100EA4379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AFF83181E0E388100EA4379 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFF83191E0E388100EA4379 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AFF831D1E0E388100EA4379 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFF831E1E0E388100EA4379 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AFF83371E0E388100EA4379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AFF83381E0E388100EA4379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AFF833A1E0E388100EA4379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JGDateTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengHanDL.JGDateTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AFF833B1E0E388100EA4379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JGDateTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengHanDL.JGDateTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AFF833D1E0E388100EA4379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JGDateTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengHanDL.JGDateTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGDateTime.app/JGDateTime";
+			};
+			name = Debug;
+		};
+		1AFF833E1E0E388100EA4379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JGDateTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengHanDL.JGDateTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGDateTime.app/JGDateTime";
+			};
+			name = Release;
+		};
+		1AFF83401E0E388100EA4379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JGDateTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengHanDL.JGDateTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JGDateTime;
+			};
+			name = Debug;
+		};
+		1AFF83411E0E388100EA4379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JGDateTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengHanDL.JGDateTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JGDateTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AFF83071E0E388100EA4379 /* Build configuration list for PBXProject "JGDateTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFF83371E0E388100EA4379 /* Debug */,
+				1AFF83381E0E388100EA4379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFF83391E0E388100EA4379 /* Build configuration list for PBXNativeTarget "JGDateTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFF833A1E0E388100EA4379 /* Debug */,
+				1AFF833B1E0E388100EA4379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AFF833C1E0E388100EA4379 /* Build configuration list for PBXNativeTarget "JGDateTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFF833D1E0E388100EA4379 /* Debug */,
+				1AFF833E1E0E388100EA4379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AFF833F1E0E388100EA4379 /* Build configuration list for PBXNativeTarget "JGDateTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFF83401E0E388100EA4379 /* Debug */,
+				1AFF83411E0E388100EA4379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AFF83041E0E388100EA4379 /* Project object */;
+}
